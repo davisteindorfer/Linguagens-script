@@ -1,0 +1,24 @@
+O seu protótipo é descartável ou evolucionário? Justifique.
+- Evolucionário. O protótipo foi criado pensando em expandir as operações feitas no futuro, Entrando operações grandes de uma vez só
+  Exemplo: (5 + 3) * 7 + (41 - 3)
+  Por isso foi usada uma lista no programa, no futuro a lista terá toda a operação e o programa vai varrer a lista a procura das prioridades na operação (* / () )
+  Além disso, existe a possibilidade de acrescentar as operações de Raiz e Potencia.
+  Cada operação tera uma função especifica para organizar melhor o código.
+
+
+Quais as características da linguagem escolhida fazem ela apropriada para o
+desenvolvimento de um protótipo?
+- Python é uma linguagem com uma gramática relativamente simples, o que torna intuitiva a construção do programa, além de apresentar funções úteis como
+  a função isinstance() que permite checar se o valor entrado pelo usuário seja o que realmente deva ser, seja numero ou operação.
+
+Que dificuldades você teve no desenvolvimento do protótipo?
+- A parte mais dificil foi criar o protótipo de um modo que ele possa evoluir no futuro. Se não houvesse esse pensamento
+  o programa poderia ser um pouco mais simples, sem a utilização da lista por exemplo.
+
+
+Quais as vantagens de ter um protótipo desenvolvido antes da implementação do
+programa efetivo?
+- O protótipo permite que eu observe e pense qual será o melhor metodo para expandir o programa de modo que sua versão final
+  seja implementada da forma mais eficiente possível
+- Com a funcionalidade basica do protótipo, é possível ver o que deve e pode ser adicionado ao programa para torna-lo mais completo
+- No caso de desenvolvimento de um software para um cliente, o protótipo é um meio de mostrar a esse cliente a base do sistema.
