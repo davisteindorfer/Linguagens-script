@@ -19,7 +19,7 @@ while a == True:
     y = float(input("Entre um número \n"))
   Operação.append(y)
 
-  for i in range(0,3):
+  for i in range(len(Operação)):
     if Operação[i] == "+":
       print(Operação[i-1],"+",Operação[i+1],"=", Operação[i-1]+Operação[i+1])
     if Operação[i] == "-":
