@@ -7,8 +7,8 @@ def index():
     if request.method == 'POST':
 
         numeroEscrito = int(request.form['numero']) 
-        Resultado = numeroEscrito + 2
-        sentence = f'{numeroEscrito} + 2 = {Resultado}'
+        resultado = numeroEscrito + 2
+        sentence = f'{numeroEscrito} + 2 = {resultado}'
 
         return render_template('index.html', sentence=sentence)
     else:
